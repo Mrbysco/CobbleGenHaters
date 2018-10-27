@@ -15,7 +15,6 @@ public class HaterHandler {
 		if(state.getBlock() != Blocks.OBSIDIAN)
 		{
 			event.setNewState(event.getOriginalState());
-			event.setCanceled(true);
 		}
 	}
 }
