@@ -1,0 +1,16 @@
+[
+{
+  "modid": "cobblegenhaters",
+  "name": "Cobble Gen Hater",
+  "description": "Want lava and water not to form cobble/stone? Then this is your mod.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Mrbysco", "TheEmosewaPixel"],
+  "credits": "TheEmosewaPixel For the request",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
