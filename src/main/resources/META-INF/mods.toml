@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[28,)"
+loaderVersion="[32,)"
 issueTrackerURL="https://github.com/Mrbysco/CobbleGenHaters/issues"
 
 [[mods]]
@@ -10,17 +10,3 @@ displayURL="https://www.curseforge.com/minecraft/mc-mods/cobble-gen-haters"
 credits="TheEmosewaPixel For the request"
 authors="Mrbysco, TheEmosewaPixel"
 description='''Want lava and water not to form cobble/stone? Then this is your mod.'''
-
-[[dependencies.cobblegenhaters]]
-    modId="forge"
-    mandatory=true
-    versionRange="[31,)"
-    ordering="NONE"
-    side="BOTH"
-	
-[[dependencies.cobblegenhaters]]
-    modId="minecraft"
-    mandatory=true
-    versionRange="[1.15.2]"
-    ordering="NONE"
-    side="BOTH"
