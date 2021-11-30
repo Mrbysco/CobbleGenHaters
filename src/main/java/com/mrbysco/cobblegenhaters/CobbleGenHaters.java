@@ -12,7 +12,7 @@ import net.minecraftforge.fml.common.Mod;
 
 @Mod("cobblegenhaters")
 public class CobbleGenHaters {
-	public static final ITag.INamedTag<Block> ALLOWED_BLOCKS = BlockTags.makeWrapperTag("cobblegenhaters:" + "allowed_blocks");
+	public static final ITag.INamedTag<Block> ALLOWED_BLOCKS = BlockTags.bind("cobblegenhaters:allowed_blocks");
 
 	public CobbleGenHaters() {
 		MinecraftForge.EVENT_BUS.register(this);
