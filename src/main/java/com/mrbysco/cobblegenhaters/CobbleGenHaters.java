@@ -1,7 +1,9 @@
 package com.mrbysco.cobblegenhaters;
 
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.Tag;
+import net.minecraft.tags.TagKey;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.common.MinecraftForge;
@@ -12,7 +14,7 @@ import net.minecraftforge.fml.common.Mod;
 
 @Mod("cobblegenhaters")
 public class CobbleGenHaters {
-	public static final Tag.Named<Block> ALLOWED_BLOCKS = BlockTags.bind("cobblegenhaters:allowed_blocks");
+	public static final TagKey<Block> ALLOWED_BLOCKS = BlockTags.create(new ResourceLocation("cobblegenhaters", "allowed_blocks"));
 
 	public CobbleGenHaters() {
 		MinecraftForge.EVENT_BUS.register(this);
