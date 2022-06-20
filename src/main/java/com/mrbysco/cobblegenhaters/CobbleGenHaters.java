@@ -2,7 +2,6 @@ package com.mrbysco.cobblegenhaters;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
-import net.minecraft.tags.Tag;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
@@ -23,7 +22,7 @@ public class CobbleGenHaters {
 	@SubscribeEvent(priority = EventPriority.HIGH)
 	public void blockPlaceEvent(final BlockEvent.FluidPlaceBlockEvent event) {
 		BlockState state = event.getNewState();
-		if(!state.is(ALLOWED_BLOCKS)) {
+		if (!state.is(ALLOWED_BLOCKS)) {
 			event.setNewState(event.getOriginalState());
 		}
 	}
