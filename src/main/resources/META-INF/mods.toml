@@ -11,3 +11,9 @@ displayURL="https://www.curseforge.com/minecraft/mc-mods/cobble-gen-haters"
 credits="TheEmosewaPixel For the request"
 authors="Mrbysco, TheEmosewaPixel"
 description='''Want lava and water not to form cobble/stone? Then this is your mod.'''
+[[dependencies.cobblegenhaters]]
+modId="forge"
+mandatory=true
+versionRange="[41.0.94,)"
+ordering="NONE"
+side="BOTH"
