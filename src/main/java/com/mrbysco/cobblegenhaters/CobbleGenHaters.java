@@ -13,7 +13,7 @@ import net.neoforged.neoforge.event.level.BlockEvent;
 
 @Mod("cobblegenhaters")
 public class CobbleGenHaters {
-	public static final TagKey<Block> ALLOWED_BLOCKS = BlockTags.create(new ResourceLocation("cobblegenhaters", "allowed_blocks"));
+	public static final TagKey<Block> ALLOWED_BLOCKS = BlockTags.create(ResourceLocation.fromNamespaceAndPath("cobblegenhaters", "allowed_blocks"));
 
 	public CobbleGenHaters() {
 		NeoForge.EVENT_BUS.register(this);
