@@ -20,6 +20,6 @@ side="BOTH"
 [[dependencies.cobblegenhaters]]
 modId="neoforge"
 type="REQUIRED"
-versionRange="[24.0.0-beta,)"
+versionRange="[21.4.0-beta,)"
 ordering="NONE"
 side="BOTH"
