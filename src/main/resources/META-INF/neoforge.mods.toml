@@ -13,13 +13,13 @@ authors="Mrbysco, TheEmosewaPixel"
 description='''Want lava and water not to form cobble/stone? Then this is your mod.'''
 [[dependencies.cobblegenhaters]]
 modId="minecraft"
-type="REQUIRED"
-versionRange="[1.21.11,1.22)"
+type="required"
+versionRange="[26.1,)"
 ordering="NONE"
 side="BOTH"
 [[dependencies.cobblegenhaters]]
 modId="neoforge"
-type="REQUIRED"
-versionRange="[21.11.0-beta,)"
+type="required"
+versionRange="[26.1.0.0-alpha,)"
 ordering="NONE"
 side="BOTH"
