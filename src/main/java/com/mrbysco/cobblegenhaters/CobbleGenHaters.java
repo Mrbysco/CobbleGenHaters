@@ -1,6 +1,6 @@
 package com.mrbysco.cobblegenhaters;
 
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.level.block.Block;
@@ -13,7 +13,7 @@ import net.neoforged.neoforge.event.level.BlockEvent;
 
 @Mod("cobblegenhaters")
 public class CobbleGenHaters {
-	public static final TagKey<Block> ALLOWED_BLOCKS = BlockTags.create(ResourceLocation.fromNamespaceAndPath("cobblegenhaters", "allowed_blocks"));
+	public static final TagKey<Block> ALLOWED_BLOCKS = BlockTags.create(Identifier.fromNamespaceAndPath("cobblegenhaters", "allowed_blocks"));
 
 	public CobbleGenHaters() {
 		NeoForge.EVENT_BUS.register(this);

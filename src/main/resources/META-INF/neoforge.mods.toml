@@ -14,12 +14,12 @@ description='''Want lava and water not to form cobble/stone? Then this is your m
 [[dependencies.cobblegenhaters]]
 modId="minecraft"
 type="REQUIRED"
-versionRange="[1.21.10,1.22)"
+versionRange="[1.21.11,1.22)"
 ordering="NONE"
 side="BOTH"
 [[dependencies.cobblegenhaters]]
 modId="neoforge"
 type="REQUIRED"
-versionRange="[21.10.0-beta,)"
+versionRange="[21.11.0-beta,)"
 ordering="NONE"
 side="BOTH"
